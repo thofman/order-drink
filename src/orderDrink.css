@@ -5,7 +5,13 @@ body {
     color: #000;
 }
 
-.main {
+.content {
+    position: relative;
+    width: 100%;
+    padding: 2em .5em;
+}
+
+.content__container {
     max-width: 1000px;
     margin: 0 auto;
 }
