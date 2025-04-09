@@ -2,10 +2,77 @@
 <html lang="nl">
     <head>
         <title>Drinken bestellen</title>
+        <link rel='stylesheet' href='src/orderDrink.css'>
+        <script type='text/javascript' src='src/orderDrink.js'></script>
     </head>
     <body>
-        <main>
-            <h1>Drinken bestellen</h1>
+        <main class='main'>
+            <div class='OrderDrink' id='OrderDrink'>
+                <h1>Drinken bestellen</h1>
+                <div class='OrderDrink__container'>
+                    <button class='OrderDrink__containerDrink' id='bier'>Bier</button>
+                    <button class='OrderDrink__containerDrink' id='water'>Water</button>
+                    <button class='OrderDrink__containerDrink' id='spaRood'>Spa rood</button>
+                    <button class='OrderDrink__containerDrink' id='cola'>Cola</button>
+                    <button class='OrderDrink__containerDrink' id='colaZero'>Cola zero</button>
+                    <button class='OrderDrink__containerDrink' id='iceTeaRegular'>Ice tea regular</button>
+                    <button class='OrderDrink__containerDrink' id='iceTeaGreen'>Ice tea green</button>
+                    <button class='OrderDrink__containerDrink' id='iceTeaLemon'>Ice tea lemon</button>
+                    <button class='OrderDrink__containerDrink' id='sevenUp'>7up</button>
+                    <button class='OrderDrink__containerDrink' id='sevenUpFree'>7up free</button>
+                    <button class='OrderDrink__containerDrink' id='fanta'>Fanta</button>
+                    <button class='OrderDrink__containerDrink' id='fantaLight'>Fanta light</button>
+                </div>
+                <div>Bestelling:</div>
+                <div class='OrderDrink__wrapper'>
+                    <span class='OrderDrink__wrapperLabel'>Bier:</span>
+                    <span class='OrderDrink__wrapperCount' id='bierCount'>0</span>
+                </div>
+                <div class='OrderDrink__wrapper'>
+                    <span class='OrderDrink__wrapperLabel'>Water:</span>
+                    <span class='OrderDrink__wrapperCount' id='waterCount'>0</span>
+                </div>
+                <div class='OrderDrink__wrapper'>
+                    <span class='OrderDrink__wrapperLabel'>Spa rood:</span>
+                    <span class='OrderDrink__wrapperCount' id='spaRoodCount'>0</span>
+                </div>
+                <div class='OrderDrink__wrapper'>
+                    <span class='OrderDrink__wrapperLabel'>Cola:</span>
+                    <span class='OrderDrink__wrapperCount' id='colaCount'>0</span>
+                </div>
+                <div class='OrderDrink__wrapper'>
+                    <span class='OrderDrink__wrapperLabel'>Cola zero:</span>
+                    <span class='OrderDrink__wrapperCount' id='colaZeroCount'>0</span>
+                </div>
+                <div class='OrderDrink__wrapper'>
+                    <span class='OrderDrink__wrapperLabel'>Ice tea regular:</span>
+                    <span class='OrderDrink__wrapperCount' id='iceTeaRegularCount'>0</span>
+                </div>
+                <div class='OrderDrink__wrapper'>
+                    <span class='OrderDrink__wrapperLabel'>Ice tea green:</span>
+                    <span class='OrderDrink__wrapperCount' id='iceTeaGreenCount'>0</span>
+                </div>
+                <div class='OrderDrink__wrapper'>
+                    <span class='OrderDrink__wrapperLabel'>Ice tea lemon:</span>
+                    <span class='OrderDrink__wrapperCount' id='iceTeaLemonCount'>0</span>
+                </div>
+                <div class='OrderDrink__wrapper'>
+                    <span class='OrderDrink__wrapperLabel'>7up:</span>
+                    <span class='OrderDrink__wrapperCount' id='sevenUpCount'>0</span>
+                </div>
+                <div class='OrderDrink__wrapper'>
+                    <span class='OrderDrink__wrapperLabel'>7up free:</span>
+                    <span class='OrderDrink__wrapperCount' id='sevenUpFreeCount'>0</span>
+                </div>
+                <div class='OrderDrink__wrapper'>
+                    <span class='OrderDrink__wrapperLabel'>Fanta:</span>
+                    <span class='OrderDrink__wrapperCount' id='fantaCount'>0</span>
+                </div>
+                <div class='OrderDrink__wrapper'>
+                    <span class='OrderDrink__wrapperLabel'>Fanta light:</span>
+                    <span class='OrderDrink__wrapperCount' id='fantaLightCount'>0</span>
+                </div>
+            </div>
         </main>
     </body>
 </html>

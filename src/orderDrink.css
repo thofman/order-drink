@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000;
+}
+
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.OrderDrink__container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.OrderDrink__containerDrink {
+    color: #fff;
+    background-color: grey;
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
